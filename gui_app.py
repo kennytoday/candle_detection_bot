@@ -360,6 +360,7 @@ class PatternScannerApp:
         self.fig.tight_layout()
         self.canvas.draw_idle()
 
+
     def _render_table(self):
         self.tree.delete(*self.tree.get_children())
         if self.signals is None or self.signals.empty:
